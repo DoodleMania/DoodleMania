@@ -23,6 +23,18 @@
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    <script src="javascript/scoreoid.js"></script>
+    
+    <script> 
+    function display_alert()
+    {
+      var strJSON = '{"result":true,"count":1}';
+      var objJSON = eval("(function(){return " + strJSON + ";})()");
+      alert(objJSON.result);
+      alert(objJSON.count);
+    }
+    </script>
+
+    <input type="button" onclick="display_alert()" value="Display alert box">
+
   </body>
 </html>

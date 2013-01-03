@@ -6,7 +6,9 @@ body {
 
 span.left {
   float: left;
+  position: fixed;
 }
 span.right {
   float: right;
+  position: fixed;
 }

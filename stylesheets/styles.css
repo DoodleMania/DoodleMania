@@ -5,10 +5,12 @@ body {
 }
 
 span.left {
-  float: left;
   position: fixed;
+  bottom: 0;
+  left: 0;
 }
 span.right {
-  float: right;
   position: fixed;
+  bottom: 0;
+  right: 0;
 }

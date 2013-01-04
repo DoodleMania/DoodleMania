@@ -25,6 +25,23 @@ span.right {
 
 
 
+#box {
+position: relative;
+display: block;
+float: left;
+width: 270px;
+height: 150px;
+background: rgba(150, 150, 150, .1);
+border-radius: 8px;
+cursor: pointer;
+margin: 5px;
+-webkit-transition: all .4s ease-in-out;
+-moz-transition: all .4s ease-in-out;
+-ms-transition: all .4s ease-in-out;
+-o-transition: all .4s ease-in-out;
+transition: all .4s ease-in-out;
+}
+
 #box img {
   position: absolute;
   padding-top: 55px;
@@ -35,6 +52,47 @@ span.right {
   -o-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
+
+img {
+display: inline-block;
+}
+
+img {
+border: 0;
+}
+
+#box {
+cursor: pointer;
+}
+
+a {
+outline: 0;
+-webkit-transition: color .2s ease-in-out;
+-moz-transition: color .2s ease-in-out;
+-ms-transition: color .2s ease-in-out;
+-o-transition: color .2s ease-in-out;
+transition: color .2s ease-in-out;
+-webkit-transition: color .2s ease-in-out;
+-moz-transition: color .2s ease-in-out;
+-ms-transition: color .2s ease-in-out;
+-o-transition: color .2s ease-in-out;
+transition: color .2s ease-in-out;
+}
+
+a {
+color: #676766;
+text-decoration: none;
+line-height: inherit;
+font-weight: inherit;
+}
+
+a {
+color: #676766;
+line-height: inherit;
+font-weight: inherit;
+}
+
+
 
 #box:hover img.front {
   opacity: 0;
@@ -57,8 +115,52 @@ span.right {
 }
 
 
+.container {
+  width:1140px;
+  margin-left:auto;
+  margin-right:auto;
+  zoom:1;
+}
 
+section.jobs h2 span {
+  display:block;
+  color:#ffffff;
+  background:#d2d0d0;
+  text-transform:uppercase;
+  font-weight:500;
+  -webkit-border-radius:21px;
+  -moz-border-radius:21px;
+  border-radius:21px;
+  -webkit-border-radius:21px;
+  -moz-border-radius:21px;
+  border-radius:21px;
+  margin:0 auto;
+  width:190px;
+  font-size:16px;
+  height:42px;
+  text-shadow:none;
+  line-height:42px;
+  font-family:ubuntu-condensed-1, ubuntu-condensed-2, sans-serif;
+}
 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, em, img, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin:0;
+  padding:0;
+  border:0;
+  font-weight:normal;
+  font-style:normal;
+  font-size:100%;
+  line-height:1;
+  font-family:inherit;
+}
+
+ul.teams {
+  margin-top: 15px;
+}
+
+ul.teams li {
+list-style: none;
+}
 
 li {
   line-height:36px;
@@ -68,3 +170,9 @@ li {
 #box.zendesk:hover {
   background: #78a300;
 }
+
+
+
+
+
+

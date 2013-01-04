@@ -10,3 +10,15 @@ span.left {
 span.right {
   float: right;
 }
+
+
+.bonjour span {
+
+  font-family: "ratio-1","ratio-2",sans-serif;
+    font-size: 87px;
+    font-style: inherit;
+    font-weight: 700;
+    letter-spacing: -4px;
+    opacity: 0.15;
+    line-height: 110px;
+}

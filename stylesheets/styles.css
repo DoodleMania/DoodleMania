@@ -22,3 +22,36 @@ span.right {
     opacity: 0.15;
     line-height: 110px;
 }
+
+
+
+#box img {
+  position: absolute;
+  padding-top: 55px;
+  padding-left: 40px;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+#box:hover img.front {
+  opacity: 0;
+}
+
+#box:hover img.back {
+  opacity: 1;
+}
+
+#box img.back {
+  opacity: 0;
+}
+
+
+::selection {
+ color: #fff;
+ color: rgba(255, 255, 255, .85);
+ text-shadow: none;
+ background: #00cbe9;
+}

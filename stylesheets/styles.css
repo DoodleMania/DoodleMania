@@ -27,6 +27,7 @@ span.right {
 
 #box {
 position: relative;
+left: 15%;
 display: block;
 float: left;
 width: 270px;
@@ -34,7 +35,7 @@ height: 150px;
 background: rgba(150, 150, 150, .1);
 border-radius: 8px;
 cursor: pointer;
-margin: 5px;
+margin: 70px;
 -webkit-transition: all .4s ease-in-out;
 -moz-transition: all .4s ease-in-out;
 -ms-transition: all .4s ease-in-out;

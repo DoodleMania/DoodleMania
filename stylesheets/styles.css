@@ -116,8 +116,9 @@ font-weight: inherit;
 }
 
 #box.fitbit:hover {
-  background: #343333;
+  background: #B2ECFF;
 }
+
 
 
 .container {
@@ -173,7 +174,7 @@ li {
 }
 
 #box.zendesk:hover {
-  background: #78a300;
+  background: #fff;
 }
 
 

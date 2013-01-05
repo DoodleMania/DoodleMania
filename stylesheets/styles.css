@@ -115,6 +115,10 @@ font-weight: inherit;
  background: #00cbe9;
 }
 
+#box.fitbit:hover {
+  background: #343333;
+}
+
 
 .container {
   width:1140px;
